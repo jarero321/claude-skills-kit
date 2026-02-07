@@ -25,7 +25,8 @@
 | [atomic-commits](skills/atomic-commits) | `/commit` | Write clean, atomic commits following Conventional Commits with GitFlow integration |
 | [gitflow](skills/gitflow) | `/gitflow` | Manage Git Flow branching strategy with automated branch creation and merging |
 | [jira-ticket](skills/jira-ticket) | `/jira` | Generate structured JIRA ticket templates for features, bugs, hotfixes and spikes |
-| [dev-docs](skills/dev-docs) | `/docs` | Generate professional README files with badges, tables, and PR automation |
+| [dev-docs](skills/dev-docs) | `/docs` | Generate visual-first README files with capsule-render, skillicons, and PR automation |
+| [skill-creator](skills/skill-creator) | `/skill` | Scaffold well-structured Claude Code skills with validated frontmatter and prescriptive rules |
 
 ## Installation
 
@@ -35,6 +36,7 @@ claude-skills install atomic-commits
 claude-skills install gitflow
 claude-skills install jira-ticket
 claude-skills install dev-docs
+claude-skills install skill-creator
 ```
 
 Or install manually by copying the `SKILL.md` file from any skill folder into your project's `.claude/skills/` directory.
@@ -53,7 +55,10 @@ claude-skills-kit/
 │   ├── jira-ticket/
 │   │   ├── SKILL.md
 │   │   └── README.md
-│   └── dev-docs/
+│   ├── dev-docs/
+│   │   ├── SKILL.md
+│   │   └── README.md
+│   └── skill-creator/
 │       ├── SKILL.md
 │       └── README.md
 ├── package.json
