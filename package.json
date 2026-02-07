@@ -1,0 +1,21 @@
+{
+  "name": "@cjarero183006/claude-skills-kit",
+  "version": "1.0.0",
+  "description": "Curated collection of Claude Code agent skills",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarero321/claude-skills-kit"
+  },
+  "author": "carlos",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "ai-agent",
+    "developer-tools",
+    "gitflow",
+    "commits",
+    "jira",
+    "documentation"
+  ]
+}
